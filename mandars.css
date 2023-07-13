@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'koodak';
+    src: url('./MySite/fonts/KoodakBold.eot?#') format('eot') 
+    ,url('./MySite/fonts/KoodakBold.ttf') format('truetype') 
+    ,url('./MySite/fonts/KoodakBold.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'nazanin';
+    src: url('./MySite/fonts/Nazanin.eot?#') format('eot'),
+    url('./MySite/fonts/Nazanin.ttf') format('truetype'),
+    url('./MySite/fonts/Nazanin.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'yekan';
+    src: url('./MySite/fonts/Yekan.eot?#') format('eot'),
+    url('./MySite/fonts/yekan.ttf') format('truetype'),
+    url('./MySite/fonts/yekan.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+.navbar-dark .navbar-nav .active>.nav-link
+, .navbar-dark .navbar-nav .nav-link.active
+, .navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #2484aa !important;
+}
+.nav-link{
+    font-family: 'koodak' !important;
+    font-size: 20px !important;
+}
+.navbar-brand{
+    font-family: 'yekan' !important;
+    font-size: 1.5rem !important;
+}
+.nav-item{
+    padding: 3px 4px !important;
+}
+.landing{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.home-wrap{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.home-inner{
+    width: 100%;
+    height: 100%;
+    background: url(./MySite/images/root/back1.jpg);
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+}
+.caption{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    color: white;
+    z-index: 1;
+}
+.caption h1{
+    font-family: 'yekan';
+    letter-spacing: 8px;
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 8px 8px 18px #000;
+}
+.caption h2{
+    font-family: 'nazanin';
+    padding-top: 8px;
+    font-size: 2rem;
+    font-weight: 300px;
+    text-shadow: 8px 8px 12px #000;
+}
+.caption .btn-unice{
+    font-family: 'koodak';
+    margin-top: 24px;
+    font-size: 1rem;
+    border-width: medium ;
+    border-radius: 0;
+    padding: 14px 24px;
+}
+.area{
+    margin: 0 auto;
+    padding: 4rem 2rem 1rem;
+}
+.area h2{
+    font-family: 'yekan';
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.area p{
+    font-family: 'nazanin';
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+.btn-secondary{
+    font-size: 20px !important;
+    border-width: 2px !important;
+    border-radius: 0 !important;
+    padding: 12px 18px !important;
+    margin-top: 10px;
+    color: #fff !important;
+    background-color: #2484aa !important;
+    border-color: #2484aa !important;
+    transition: 0.7s !important;
+}
+.btn-secondary:hover{
+    color: #ffffff !important;
+    background-color: #175168 !important;
+    border-color: #175168 !important;
+    
+}
+.jumbotron{
+    border-radius: 0 !important;
+    bottom: 0 !important;
+    padding: 2rem 0 3.5rem !important;
+    margin-bottom: 0 !important;
+
+}
+#title{
+    font-family: 'yekan';
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.underline{
+    width: 19.5rem;
+    height: 5px;
+    background-color: #2484aa;
+    margin: 10px auto;
+}
+.services i{
+    color: #2484aa;
+}
+#product{
+    top: 0;
+}
+.group-background{
+    position: relative;
+}
+.fixed-wrap{
+    clip: rect(0,auto,auto,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1 !important;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(./MySite/images/root/back2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.group-background .dark{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 7rem 2rem;
+}
+blockquote{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'nazanin';
+}
+blockquote i{
+    margin: 16px;
+    color: #2484aa;
+}
+#explain-teacher-row{
+    margin: 4rem auto;
+}
+.hr{
+    border-bottom: 1.5px solid #2484aa;
+}
+/* start author */
+#authors .jumbotron{
+    padding: 1rem auto 2rem;
+}
+#authors .row{
+    margin-top: 4rem !important;
+}
+#authors .card{
+    box-shadow: 3px 5px 2px #2484aa;
+    border-radius: 0;
+}
+.body-card > img{
+    margin-top: -70px;
+}
+.body-card h3{
+    font-family: 'yekan';
+    font-weight: 700;
+}
+.body-card h5{
+    font-family: 'koodak';
+}
+.body-card p{
+    font-family: 'nazanin';
+    font-size: 16px;
+    margin: auto 2rem !important;
+    text-align: justify;
+}
+#authors .card i{
+    color: #000;
+    font-size: 22px !important;
+}
+#authors .card:hover{
+    background-color: #175168;
+    border: #175168;
+    color: #fff;
+}
+#authors .card:hover h5{
+    color: black;
+}
+#authors .card:hover i{
+    color: #fff;
+}
+.body-card i:hover{
+    color: black !important;
+}
+/* end author */
+/* footer start */
+footer p{
+    font-size: 18px;
+    font-family: 'nazanin';
+}
+footer img{
+    margin-top: 4rem;
+}
+.hr2{
+    width: 30vw;
+    border-bottom:2px solid aqua;
+}
+footer i{
+    font-size: 26px;
+    color: white;
+}
+footer i:hover{
+    color: #000;
+}
+/* end footer */
+/* start btn-gp */
+.btn-gp{
+    position: fixed;
+    right: 4rem;
+    bottom: 5rem;
+    width: 30px;
+    height: 40px;
+}
+.btn-gp .btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.btn-gp .btn-main{
+    z-index: 2;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+}
+.btn-gp .btn-sub{
+    z-index: 1;
+    right: 8px;
+    top: 2px;
+    transition: all 0.6s;
+}
+.btn-gp-f1.active .btn-sub:nth-child(2){
+    bottom: 60px;
+}
+.btn-gp-f1.active .btn-sub:nth-child(3){
+    bottom: 110px;
+}
+.btn-gp-f1.active .btn-sub:nth-child(4){
+    bottom: 160px;
+}
+
+/* end btn-gp */
+
+
+
+
